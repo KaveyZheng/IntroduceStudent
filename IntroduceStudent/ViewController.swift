@@ -28,6 +28,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var nextButton: UIButton!
     
+    let colors: [UIColor] = [ // array of different colors
+        .systemYellow,
+        .systemRed,
+        .systemBrown,
+        .systemGray,
+        .systemGreen,
+        .systemPurple,
+    ]
+    
     var timer = Timer()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -109,6 +118,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 destinationVC?.school = schoolTextField.text!
             }
         }
+    }
+    
+    
+    @IBAction func changeBackgroundColor(_ sender: Any) {
+        view.backgroundColor = colors.randomElement()
     }
 }
 
