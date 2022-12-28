@@ -1,7 +1,7 @@
 ## Introduce Student App
 
 ### App Walk-though
-<!-- <img src="https://user-images.githubusercontent.com/109322859/209755780-54d30f71-d05a-4425-afbf-363847df7c5f.gif" width=200><br> OR <img src="YOUR_GIF_PATH" width=200><br> -->
+<img src="https://user-images.githubusercontent.com/109322859/209755780-54d30f71-d05a-4425-afbf-363847df7c5f.gif" width=200><br> OR <img src="YOUR_GIF_PATH" width=200><br>
 
 ### Required Features
 
